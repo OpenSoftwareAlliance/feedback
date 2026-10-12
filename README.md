@@ -1,100 +1,63 @@
-<!-- osa:header:start -->
+<div align="center">
+
 # OSA Feedback
 
-Feedback boards and public roadmaps. Open alternative to **Google Forms (product feedback)**, part of the [Open Software Alliance](https://github.com/OpenSoftwareAlliance) suite.
+**Feedback boards and public roadmaps.**
 
-| | |
-|---|---|
-| Upstream | [LogChimp](https://github.com/logchimp/logchimp), kept in sync with this repository |
-| License | AGPL-3.0, with Enterprise Edition directories under a proprietary license (see LICENSE) |
+Open source alternative to **Google Forms (product feedback)**. Part of the [Open Software Alliance](https://github.com/OpenSoftwareAlliance) suite.
 
-Credit for the original work goes to the LogChimp authors. Everything below this header is the upstream README.
+</div>
 
 ---
-<!-- osa:header:end -->
-<a href="https://logchimp.app">
-  <img src="./.github/images/readme.png" alt="LogChimp" />
-</a>
-<br /><br />
-<p align="center">
-  Track your customers feedback to build better products with LogChimp
-</p>
-<h4 align="center">
-  <a href="https://logchimp.app">Website</a>
-  <span> • </span>
-  <a href="https://docs.logchimp.app">Docs</a>
-  <span> • </span>
-  <a href="https://logchimp.app/guide">Guide</a>
-  <span> • </span>
-  <a href="https://docs.logchimp.app/developing/introduction">Contribute</a>
-</h4>
-<br />
-<p align="center">
-  <a href="https://github.com/logchimp/logchimp/actions">
-    <img src="https://github.com/logchimp/logchimp/workflows/Test/badge.svg" alt="CI Test Status" />
-  </a>
-  <a href="https://github.com/logchimp/logchimp/contributors/">
-    <img src="https://img.shields.io/github/contributors/logchimp/logchimp.svg" alt="GitHub LogChimp Contributors" />
-  </a>
-  <a href="https://gitpod.io/#https://github.com/logchimp/logchimp">
-    <img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" alt="Gitpod ready-to-code" />
-  </a>
-  <a href="https://opencollective.com/logchimp">
-    <img src="https://img.shields.io/badge/contribute-Open%20Collective-7FADF2?logo=open-collective" alt="Contribute on Open Collective" />
-  </a>
-   <a href="https://github.com/logchimp/logchimp/stargazers">
-    <img src="https://img.shields.io/github/stars/logchimp/logchimp" alt="Github Stars">
-  </a>
-   <a href="https://discord.gg/A7mztcC">
-    <img src="https://img.shields.io/discord/620800582722256899" alt="Join LogChimp Discord server" />
-  </a>
-  <a href="https://github.com/logchimp/logchimp/labels/help%20wanted">
-    <img src="https://img.shields.io/badge/Help%20Wanted-Contribute-blue" alt="Help Wanted Contribute" />
-  </a>
-  <a href="https://twitter.com/logchimp">
-    <img src="https://img.shields.io/twitter/follow/logchimp?style=flat" alt="Follow @logchimp on Twitter">
-  </a>
-  <a href="https://codespaces.new/logchimp/logchimp?devcontainer_path=.devcontainer/devcontainer.json">
-    <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces" />
-  </a>
-</p>
 
 ## Features
 
-* 🎨 Brand customizable
-* 📝 Create posts
-* 🗃️ Organise posts by Boards & Roadmaps
-* 💪 Powerful dashboard
-* 🔐 Secure by design
-* 🤖 Self-hosted
+- Public feedback boards and voting
+- Roadmaps and changelog
+- Roles and permissions
+- Comments and status updates
 
-## Getting started
+## Tech stack
 
-To get started, you can read our [deployment docs](https://docs.logchimp.app/self-hosting/installation) for self-hosting with
-Ubuntu or cloud hosting with one click deploy button.
+- **Current:** Vue + TypeScript, Node.js (Express), Postgres
+- **Target:** Next.js + TypeScript on Cloudflare Workers (see [migration research](https://github.com/OpenSoftwareAlliance/feedback/issues/2))
 
-## Let's talk
+## Roadmap
 
-<a href="https://cal.com/yashu/logchimp?utm_source=banner&utm_campaign=oss"><img alt="Book us with Cal.com" src="https://cal.com/book-with-cal-dark.svg" /></a>
+- [Open source landscape research](https://github.com/OpenSoftwareAlliance/feedback/issues/1)
+- [Migration research: React/Next.js + TypeScript on Cloudflare Workers](https://github.com/OpenSoftwareAlliance/feedback/issues/2)
+- [All issues](https://github.com/OpenSoftwareAlliance/feedback/issues)
 
-## 🤝🏻 Community
+## Self-hosting
 
-Stay up to date on the development of LogChimp you can star this repository, follow us on Twitter or reach out to the
-community with these helpful resources.
+Installation and configuration follow the upstream project for now: see the [LogChimp documentation](https://github.com/logchimp/logchimp#readme).
 
-- Follow [@logchimp](https://twitter.com/@logchimp) on Twitter.
-- Join the official [LogChimp Discord](https://discord.gg/A7mztcC)
+## The OSA suite
 
-## Contributing
+| Product | What it does | Alternative to |
+|---|---|---|
+| [OSA Pad](https://github.com/OpenSoftwareAlliance/pad) | Real-time collaborative document editor. | Google Docs |
+| [OSA Sheet](https://github.com/OpenSoftwareAlliance/sheet) | Online collaborative spreadsheet. | Google Sheets |
+| [OSA Cal](https://github.com/OpenSoftwareAlliance/cal) | Scheduling and booking pages. | Google Calendar (appointment schedules) |
+| [OSA Mail](https://github.com/OpenSoftwareAlliance/mail) | Email forwarding and hosting for custom domains. | Gmail |
+| [OSA Meet](https://github.com/OpenSoftwareAlliance/meet) | Secure peer-to-peer video meetings. | Google Meet |
+| [OSA Draw](https://github.com/OpenSoftwareAlliance/draw) | Infinite canvas whiteboard. | Google Drawings / Jamboard |
+| [OSA Drop](https://github.com/OpenSoftwareAlliance/drop) | Local file sharing in the browser. | Quick Share |
+| [OSA Share](https://github.com/OpenSoftwareAlliance/share) | Simple temporary file hosting. | Google Drive (file links) |
+| [OSA Share Admin](https://github.com/OpenSoftwareAlliance/share-admin) | Moderation panel for OSA Share. | Google Drive admin |
+| [OSA Bin](https://github.com/OpenSoftwareAlliance/bin) | Zero-knowledge encrypted pastebin. | Google Keep (secure notes) |
+| [OSA Snip](https://github.com/OpenSoftwareAlliance/snip) | Self-hosted code snippets and gists. | Google Keep (snippets) |
+| [OSA Short](https://github.com/OpenSoftwareAlliance/short) | URL shortener with analytics. | goo.gl |
+| [OSA Alias](https://github.com/OpenSoftwareAlliance/alias) | DNS-based domain redirection. | Google Domains forwarding |
+| [OSA Page](https://github.com/OpenSoftwareAlliance/page) | Link-in-bio pages. | Google Sites |
+| [OSA Feedback](https://github.com/OpenSoftwareAlliance/feedback) | Feedback boards and public roadmaps. | Google Forms (product feedback) |
+| [OSA Jam](https://github.com/OpenSoftwareAlliance/jam) | Live audio rooms. | Google Meet (audio) |
+| [OSA Micro](https://github.com/OpenSoftwareAlliance/micro) | Ready-to-use micro service APIs. | Google Cloud APIs |
+| [OSA Username](https://github.com/OpenSoftwareAlliance/username) | Check username availability on 100+ sites. | - |
+| [OSA Status](https://github.com/OpenSoftwareAlliance/status) | Uptime monitor and status page for the OSA services. | - |
 
-We welcome contributions! To ensure your work doesn't conflict with ongoing work, please:
+## License and credits
 
-1. Read our [contributing guide](CONTRIBUTING.md)
-2. **Discuss your ideas with us in public channels (GitHub/Discord) BEFORE starting development** (No private DMs)
-3. Get approval from a core team member
+OSA Feedback is based on [LogChimp](https://github.com/logchimp/logchimp). Credit for the original work goes to its authors.
 
-This helps us align efforts and prevents duplicated or conflicting work.
-
-## Stargazers over time
-
-[![Star History Chart](https://star-history.dera.page/svg?repos=logchimp/logchimp&type=timeline&legend=top-left)](https://star-history.dera.page/#logchimp/logchimp&type=timeline&legend=top-left)
+License: AGPL-3.0, with Enterprise Edition directories under a proprietary license (see LICENSE). See the [LICENSE](LICENSE) file in this repository.
