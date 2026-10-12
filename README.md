@@ -1,3 +1,17 @@
+<!-- osa:header:start -->
+# OSA Feedback
+
+Feedback boards and public roadmaps. Open alternative to **Google Forms (product feedback)**, part of the [Open Software Alliance](https://github.com/OpenSoftwareAlliance) suite.
+
+| | |
+|---|---|
+| Upstream | [LogChimp](https://github.com/logchimp/logchimp), kept in sync with this repository |
+| License | AGPL-3.0, with Enterprise Edition directories under a proprietary license (see LICENSE) |
+
+Credit for the original work goes to the LogChimp authors. Everything below this header is the upstream README.
+
+---
+<!-- osa:header:end -->
 <a href="https://logchimp.app">
   <img src="./.github/images/readme.png" alt="LogChimp" />
 </a>
